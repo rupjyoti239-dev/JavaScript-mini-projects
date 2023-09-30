@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+.container{
+  width: 370px;
+  height: 500px;
+  border:  3px solid rgb(126, 223, 126);
+  padding: 10px 15px;
+}
+h3{
+  margin: 20px auto;
+}
+input{
+  padding: 5px 10px;
+  outline: none;
+}
+button{
+  padding: 6px 12px;
+  background-color: rgb(126, 223, 126);
+  border: none;
+}
+
+p{
+  text-align: center;
+  margin: 100px auto;
+}
+
+#msg{
+  color: red;
+}
