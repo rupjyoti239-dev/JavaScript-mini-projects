@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.container{
+  border: 3px solid #55ab55;
+  padding: 10px;
+  height: 500px;
+  width: 350px;
+  text-align: center;
+}
+input{
+  padding: 5px 10px;
+  margin: 15px auto;
+}
+
+button{
+  padding: 6px 15px;
+  background-color: #55ab55;
+  border: none;
+  color: white;
+}
+
+p{
+  margin: 100px auto;
+  text-align: center;
+  color: blue;
+}
