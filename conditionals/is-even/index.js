@@ -8,6 +8,7 @@ btn.addEventListener("click", (e)=>{
    if(value === ""){
     document.querySelector("#msg").innerHTML = "**Enter a number"
    }else{
+    document.querySelector("#msg").innerHTML = ""
     container.lastChild.remove();
     if(value%2 === 0){
      let p = document.createElement('p');
